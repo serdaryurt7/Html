@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Üye Ol!</title>
+  </head>
+  <body>
+    <h1>Lütfen Formu Eksiksiz Doldurunuz.</h1>
+    <hr />
+
+    <h2>Hesap Bilgileriniz</h2>
+    <table>
+      <tr>
+        <td style="width: 120px">
+          <label for="username">Kullanıcı Adı: </label>
+        </td>
+
+        <td style="width: 50px"></td>
+
+        <td>
+          <input
+            type="text"
+            id="username"
+            placeholder="Kullanıcı adı giriniz"
+          />
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          <label for="eposta">Eposta: </label>
+        </td>
+
+        <td></td>
+
+        <td>
+          <input type="text" id="eposta" placeholder="Epostanızı giriniz" />
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          <label for="pass">Parola: </label>
+        </td>
+
+        <td></td>
+
+        <td>
+          <input type="password" id="pass" placeholder="Şifrenizi giriniz" />
+        </td>
+      </tr>
+    </table>
+
+    <h2>Kişisel Bilgileriniz</h2>
+
+    <table>
+      <tr>
+        <td style="width: 120px">
+          <label for="name">Adınız: </label>
+        </td>
+
+        <td></td>
+
+        <td><input type="text" id="name" placeholder="Adınızı giriniz" /></td>
+      </tr>
+
+      <tr>
+        <td>
+          <label for="surname">Soyadınız: </label>
+        </td>
+
+        <td></td>
+
+        <td>
+          <input type="text" id="surname" placeholder="Soyadınızı giriniz" />
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          <label for="sehir">Şehir: </label>
+        </td>
+
+        <td></td>
+
+        <td>
+          <select id="sehir">
+            <option>Seçiniz</option>
+            <option>Ankara</option>
+            <option>İstanbul</option>
+            <option>İzmir</option>
+            <option>Kocaeli</option>
+          </select>
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          <label for="cinsiyet">Cinsiyet: </label>
+        </td>
+
+        <td></td>
+
+        <td>
+          <input type="radio" name="cinsiyet" /> Erkek
+          <input type="radio" name="cinsiyet" /> Kadın
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          <label for="hobiler">Hobileriniz: </label>
+        </td>
+
+        <td></td>
+
+        <td>
+          <input type="checkbox" name="hobiler" />Sinema
+          <input type="checkbox" name="hobiler" />Tiyatro
+          <input type="checkbox" name="hobiler" />Futbol
+          <input type="checkbox" name="hobiler" />Basketbol
+          <input type="checkbox" name="hobiler" />Müzik
+          <input type="checkbox" name="hobiler" />Sanat
+          <input type="checkbox" name="hobiler" />Kitap Okumak
+        </td>
+      </tr>
+
+      <tr>
+        <td></td>
+
+        <td></td>
+
+        <td>
+          <button type="submit">Kaydet</button>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
